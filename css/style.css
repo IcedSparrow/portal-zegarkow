@@ -1,0 +1,97 @@
+/* Resetowanie domyślnych stylów */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Stylizacja headera */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+nav{
+    margin-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+/* Stylizacja głównego kontenera */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Stylizacja artykułów */
+article {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+/* Stylizacja przycisku "Polub" */
+article button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Stylizacja sekcji komentarzy */
+.comments {
+    margin-top: 20px;
+}
+
+/* Stylizacja pojedynczego komentarza */
+.comment {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment small {
+    color: #777;
+}
